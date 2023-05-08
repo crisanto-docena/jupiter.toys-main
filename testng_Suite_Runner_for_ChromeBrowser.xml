@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Jupiter Toys Test Suite">
+
+	<parameter name="browser" value="CHROME" />    										<!-- for chrome browser (you may change the value for different browser) -->
+ 
+ 	<test name="Jupiter Toys test for chrome parallel" parallel="methods" thread-count="3">  	<!--  for parallel/asynchronous run -->
+ 	<!-- <test name="Jupiter Toys Test for chrome sequential">  --> 							<!-- for sequential run -->
+ 	     								
+		<classes>
+        	<class name = "com.jupitertoys.testcase.jupiterToys_Test" />
+    	</classes>		
+	
+	</test>
+</suite>
+
